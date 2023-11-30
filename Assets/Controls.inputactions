@@ -1,0 +1,154 @@
+{
+    "name": "Controls",
+    "maps": [
+        {
+            "name": "InGame",
+            "id": "dfb0c0da-c665-40ec-9e4b-fa1db3abf08c",
+            "actions": [
+                {
+                    "name": "Start",
+                    "type": "Button",
+                    "id": "5702cdb4-564f-403e-8f0a-9b987f208a69",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "MouseNotWork",
+                    "type": "PassThrough",
+                    "id": "e771eb62-132c-4f5c-a02a-31a32b1c097d",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "e7b7f64e-e85c-479a-b26d-a0ff2da619e6",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Start",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "ThisIsForInCaseMouseNotWork",
+                    "id": "3ac77f57-577a-4203-b9ef-4ef6a2b5be0c",
+                    "path": "3DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MouseNotWork",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "left",
+                    "id": "e816ba21-cc10-490a-b87a-5806129296aa",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MouseNotWork",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "e63a64c5-7791-42bc-8315-c4e065b83f9d",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MouseNotWork",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "forward",
+                    "id": "35bbc7e3-f9ca-44ad-9b28-4ad85479c0f1",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MouseNotWork",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "backward",
+                    "id": "b78fe8b9-ccce-4c6c-b662-e5da8db77e0e",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MouseNotWork",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        },
+        {
+            "name": "UI",
+            "id": "1fb09a80-72cd-411f-8a9a-86053d07d186",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "36ac0a2f-b518-405a-868d-142e193feda5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "de251f2c-1e6d-4b26-a2c9-3185dc906e43",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Permanent",
+            "id": "9b0d4dff-e15e-4deb-a03e-e8a8ef83b928",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "07b5a73a-d0d5-4f7c-bbee-bfd0798ea290",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ebfe81cd-920c-4252-9104-b5ab5d74d736",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
